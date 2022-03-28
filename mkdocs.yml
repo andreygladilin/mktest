@@ -52,7 +52,6 @@ theme:
 #        name: Switch to light mode
   features:
     - navigation.instant
-    - navigation.tracking
     - navigation.tabs
     - navigation.expand
     - navigation.indexes
@@ -61,6 +60,7 @@ theme:
     - search.highlight
     - search.shares
     - content.code.annotate
+    - toc.integrate
 #    - navigation.sections
 extra_css:
   - stylesheets/extra.css
