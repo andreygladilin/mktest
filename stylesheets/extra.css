@@ -1,0 +1,15 @@
+[data-md-color-scheme="appsechub"] {
+    --md-primary-fg-color:  rgb(255, 255, 255);
+    --md-typeset-a-color:   #0076e3;
+    --md-footer-bg-color:   #1a202e;
+    --md-default-fg-color:  #666666;
+    --md-default-bg-color:  #f7f6f9;
+    --md-primary-bg-color:  #666;
+    --md-primary-bg-color--light:   #bbb;
+    --md-accent-fg-color:   #0084ff;
+    --md-default-fg-color--lightest:    #bbb;
+
+    --md-code-fg-color: #666;
+    --md-code-bg-color: hsla(209, 100%, 45%, 0.1);}
+[data-md-color-scheme="slate"]{ 
+    --md-hue: 210;}

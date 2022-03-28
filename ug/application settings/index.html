@@ -1,0 +1,1323 @@
+
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.5">
+    
+    
+      
+        <title>Настройки приложения - Документация</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2d9f7617.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="appsechub" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href="../.." title="Документация" class="md-header__button md-logo" aria-label="Документация" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Документация
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+            Документация&nbsp;&nbsp;/&nbsp;&nbsp;Настройки приложения
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Очистить" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Вкладки" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../gi/" class="md-tabs__link">
+        Общая информация
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../" class="md-tabs__link md-tabs__link--active">
+        Руководство пользователя
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../aag/" class="md-tabs__link">
+        Руководство администратора
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../sag/" class="md-tabs__link">
+        Руководство администратора ИБ
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Документация" class="md-nav__button md-logo" aria-label="Документация" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    Документация
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" data-md-state="indeterminate" type="checkbox" id="__nav_1" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../gi/">Общая информация</a>
+          
+            <label for="__nav_1">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Общая информация" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Общая информация
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gi/tool%20description/" class="md-nav__link">
+        Описание инструмента
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gi/user%20workstation%20requirements/" class="md-nav__link">
+        Требования к рабочему месту пользователя
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../">Руководство пользователя</a>
+          
+            <label for="__nav_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Руководство пользователя" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Руководство пользователя
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" data-md-state="indeterminate" type="checkbox" id="__nav_2_2" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Приложения
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Приложения" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Приложения
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../work%20with%20applications/" class="md-nav__link">
+        Работа с приложениями
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../adding%20a%20new%20application/" class="md-nav__link">
+        Добавление нового приложения
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Настройки приложения
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Настройки приложения
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание раздела">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание раздела
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    Сопоставление приложения с командой
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supportednot-supported" class="md-nav__link">
+    Изменения статуса приложения (supported/not supported)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    Сопоставление приложения с рабочим пространством
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    Информация о технологиях приложения
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    Сопоставление приложения с организационной структурой
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    Профиль рисков приложения
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    Уведомления приложения
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    Журнал задач
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          Проблемы и дефекты безопасности
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Проблемы и дефекты безопасности" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Проблемы и дефекты безопасности
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../work%20with%20applications/" class="md-nav__link">
+        Работа с приложениями
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../adding%20a%20new%20application/" class="md-nav__link">
+        Добавление нового приложения
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Настройки приложения
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Настройки приложения
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание раздела">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание раздела
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    Сопоставление приложения с командой
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supportednot-supported" class="md-nav__link">
+    Изменения статуса приложения (supported/not supported)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    Сопоставление приложения с рабочим пространством
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    Информация о технологиях приложения
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    Сопоставление приложения с организационной структурой
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    Профиль рисков приложения
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    Уведомления приложения
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    Журнал задач
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" data-md-state="indeterminate" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../aag/">Руководство администратора</a>
+          
+            <label for="__nav_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Руководство администратора" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Руководство администратора
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aag/installing%2C%20running%20and%20updating%20AppSec.Hub/" class="md-nav__link">
+        Установка, запуск и обновление AppSec.Hub
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" data-md-state="indeterminate" type="checkbox" id="__nav_3_3" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3_3">
+          Интеграция с инструментами
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Интеграция с инструментами" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Интеграция с инструментами
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aag/integration%20with%20tools/" class="md-nav__link">
+        Интеграция с инструментами
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aag/integration%20with%20software%20development%20tools/" class="md-nav__link">
+        Интеграция с инструментами разработки ПО
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" data-md-state="indeterminate" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../sag/">Руководство администратора ИБ</a>
+          
+            <label for="__nav_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Руководство администратора ИБ" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Руководство администратора ИБ
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started.md" class="md-nav__link">
+        Installation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../creating-your-site.md" class="md-nav__link">
+        Creating your site
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../publishing-your-site.md" class="md-nav__link">
+        Publishing your site
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customization.md" class="md-nav__link">
+        Customization
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../browser-support.md" class="md-nav__link">
+        Browser support
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../alternatives.md" class="md-nav__link">
+        Alternatives
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license.md" class="md-nav__link">
+        License
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_9" data-md-state="indeterminate" type="checkbox" id="__nav_4_9" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4_9">
+          Changelog
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Changelog" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_9">
+          <span class="md-nav__icon md-icon"></span>
+          Changelog
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/index.md" class="md-nav__link">
+        None
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../upgrade.md" class="md-nav__link">
+        How dto upgrade
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="_1">Настройки приложения<a class="headerlink" href="#_1" title="Permanent link">⚓︎</a></h1>
+<p>Каждое приложение необходимо настроить и сконфигурировать до того, как члены команды начнут работать с ним в системе. Конфигурация приложения в AppSec.Hub охватывает несколько областей.</p>
+<p>Чтобы начать процесс настройки, нажав значок <strong>Show App details</strong> <img alt="" src="../img/image31.png" />, перейдите на страницу приложения.</p>
+<p>Вкратце, этот процесс включает определение и настройку параметров через пункты меню, расположенные слева.</p>
+<figure>
+<p><img alt="" src="../img/image33.png" /></p>
+</figure>
+<ul>
+<li><strong>Info</strong> — информация о приложении. На данной странице отображается текущий статус приложения с точки зрения метрик сканирования, проблем и дефектов безопасности, см. рис. выше. Также на экран выведены размер кодовой базы приложения в SLOC сводка по проблемам безопасности, сводка по дефектам безопасности и сводка по SSDL. Все эти данные извлекаются из хранилища данных (data warehouse).</li>
+<li><strong>Development</strong> — этот пункт меню содержит пять вкладок (см. раздел «Конфигурация приложения»).</li>
+<li>Пункт меню <strong>DevSecOps</strong> предназначен для работы с security pipelines (описание приведено в разделе «<a href="">Security Pipelines</a>»).</li>
+<li>Пункты меню <strong>Issues</strong> и <strong>Defects</strong> предназначены для работы с проблемами и дефектами приложения (см. раздел «<a href="">Работа с проблемами и дефектами безопасности</a>»).</li>
+<li><strong>Risk Acceptance</strong> — проблемы безопасности, добавленные в исключения, см. разделе «<a href="">Проблемы безопасности</a>».</li>
+<li>Пункт меню <strong>Defect tracking</strong> предназначен для настройки отслеживания дефектов приложения (описание приведено в разделе «<a href="">Синхронизация с Jira — настройки</a>»).</li>
+<li>Пункт <strong>SSDL</strong> — информация, относящаяся к жизненному циклу разработки приложения.</li>
+<li>Пункт <strong>Task log</strong> — позволяет просмотреть перечень и статус выполняемых на back-end задач для данного приложения (см. раздел «<a href="">Журнал задач</a>»).</li>
+<li>Пункт <strong>Notifications</strong> — настройка уведомлений для данного приложения. Более подробное описание приведено в разделе «<a href="">Уведомления приложения</a>».</li>
+<li>Пункт <strong>Settings</strong> — настройки приложения. Шаги настройки приложения через пункт меню <strong>Settings</strong> подробно описаны ниже.</li>
+</ul>
+<p>Чтобы получить подробную информацию о приложении, необходимо перейти на страницу <strong>Applications</strong> и, выбрав соответствующее приложение, нажать значок <strong>Show app details</strong> <img alt="" src="../img/image34.png" />.</p>
+<figure>
+<p><img alt="" src="../img/image35.png" /></p>
+</figure>
+<p>На экране появится страница приложения с подробной информацией о нем. Выберите пункт меню <strong>Settings</strong> в консоли слева, чтобы изменить информацию о приложении и настроить его параметры. На экране откроется страница настроек приложения с пятью вкладками.</p>
+<figure>
+<p><img alt="" src="../img/image36.png" /></p>
+</figure>
+<p>Вкладка <strong>General</strong> позволяет настроить важные параметры приложения:</p>
+<ul>
+<li><strong>Application name</strong> — название приложения.</li>
+<li><strong>Code</strong> — внутренний код приложения во внешних пользовательских системах (это поле можно оставить пустым).</li>
+<li><strong>External ID</strong> — внешний идентификатор приложения. Передается внешним инструментом, например, UUID сборки в Teamcity.</li>
+<li><strong>Description</strong> — краткое описание приложения.</li>
+<li>а также выполнить прочие описанные ниже настройки.</li>
+</ul>
+<h2 id="_2">Сопоставление приложения с командой<a class="headerlink" href="#_2" title="Permanent link">⚓︎</a></h2>
+<p>Информация о командах с разрешением на управление приложением доступна в разделе <strong>Access groups</strong> на вкладке <strong>General</strong> на странице <strong>Settings</strong>.</p>
+<figure>
+<p><img alt="" src="../img/image37.png" /></p>
+</figure>
+<p>Нажмите кнопку <strong>Add group</strong> справа и выберите команду из выпадающего меню, чтобы добавить команду в список команд, работающих с приложением. Чтобы удалить команду из этого списка, нажмите кнопку <img alt="" src="../img/image38.png" /> справа от названия команды.</p>
+<h2 id="supportednot-supported">Изменения статуса приложения (supported/not supported)<a class="headerlink" href="#supportednot-supported" title="Permanent link">⚓︎</a></h2>
+<p>Все приложения в AppSec.Hub имеют статус либо «supported», либо «not supported». Текущий статус приложения отображается с помощью цвета вверху карточки приложения. Если линия имеет серый цвет, security pipelines для этого приложения не могут быть запущены, а само приложение имеет статус Not supported. Если линия имеет зеленый цвет, security pipelines для этого приложения могут быть запущены, а само приложение имеет статус Supported.</p>
+<p>Выберите приложение на странице <strong>Applications</strong>, выберите пункт меню <strong>Settings</strong> в консоли слева и на ней выберите вкладку <strong>General</strong>. Текущее состояние приложения Supported/Not supported определяется с помощью селектора <strong>DevSecOps pipelines</strong>.</p>
+<figure>
+<p><img alt="" src="../img/image39.png" /></p>
+</figure>
+<p>Если селектор выключен, приложение имеет статус «not supported», security pipelines для этого приложения не могут быть запущены, и на странице <strong>Applications</strong> приложение имеет следующий вид.</p>
+<figure>
+<p><img alt="" src="../img/image40.png" /></p>
+</figure>
+<p>Переведите селектор в положение «включено».</p>
+<figure>
+<p><img alt="" src="../img/image41.png" /></p>
+</figure>
+<p>Теперь приложение имеет статус «Supported», security pipelines для этого приложения могут быть запущены, и на странице <strong>Applications</strong> приложение имеет следующий вид.</p>
+<figure>
+<p><img alt="" src="../img/image42.png" /></p>
+</figure>
+<h2 id="_3">Сопоставление приложения с рабочим пространством<a class="headerlink" href="#_3" title="Permanent link">⚓︎</a></h2>
+<p>Каждое приложение в AppSec.Hub сопоставляется с рабочим пространством. Более подробная информация о рабочих пространствах приведена в разделе «<a href="">Организация рабочих пространств</a>» Руководства прикладного администратора. В AppSec.Hub всегда существует предустановленное рабочее пространство (Default workspace). До момента создания других рабочих пространств в системе все приложения могут быть сопоставлены только с этим рабочим пространством. По умолчанию, в процессе создания в окне <strong>Create application</strong> приложение сопоставляется с рабочим пространством Default workspace. При этом при создании приложения существует возможность сопоставить его с другим ранее созданным рабочим пространством при условии, что создающий приложение пользователь имеет к нему доступ.</p>
+<figure>
+<p><img alt="" src="../img/image43.png" /></p>
+</figure>
+<p>В AppSec.Hub всегда существует предустановленная команда Default team. До момента создания других команд в системе все пользователи входят только в эту команду. Если пользователь с правами Менеджера может работать только с командой Default team, рабочее пространство может быть изменено только на те рабочие пространства, доступ к которым имеют пользователи из Default team.</p>
+<p>После создания в системе других команд пользователем с правами Администратора, пользователь с правами Менеджера может быть добавлен в них Администратором. В этом случае возможности доступа Менеджера к рабочим пространствам будут расширены, и он сможет выбрать рабочее пространство из всех тех, что доступны для пользователей всех команд, членом которых он является.</p>
+<p>Можно сопоставить приложение с другим рабочим пространством, используя выпадающее меню <strong>Workspace</strong> на вкладке <strong>General</strong>.</p>
+<figure>
+<p><img alt="" src="../img/image44.png" /></p>
+</figure>
+<p>Просто выберите другое рабочее пространство из списка доступных.</p>
+<figure>
+<p><img alt="" src="../img/image45.png" /></p>
+</figure>
+<h2 id="_4">Информация о технологиях приложения<a class="headerlink" href="#_4" title="Permanent link">⚓︎</a></h2>
+<p>Выбрав приложение на странице <strong>Applications</strong>, нажмите слева пункт меню <strong>Settings</strong> и перейдите на вкладку <strong>Technology</strong>.</p>
+<figure>
+<p><img alt="" src="../img/image46.png" /></p>
+</figure>
+<p>Информация, размещенная на этой вкладке, не является обязательной для заполнения. Она описывает используемые приложением технологии и не влияет на поведение приложения в AppSec.Hub.</p>
+<h2 id="_5">Сопоставление приложения с организационной структурой<a class="headerlink" href="#_5" title="Permanent link">⚓︎</a></h2>
+<p>Выберите вкладку <strong>Team</strong> на странице настроек приложения <strong>Settings</strong>.</p>
+<figure>
+<p><img alt="" src="../img/image47.png" /></p>
+</figure>
+<p>Текущее положение приложения в организационной структуре компании показано в разделе <strong>Org structure</strong>.</p>
+<p>Обновите организационную структуру приложения, нажав кнопку <strong>Change</strong> справа. На экране появится окно <strong>Assign application to another unit</strong>.</p>
+<figure>
+<p><img alt="" src="../img/image48.png" /></p>
+</figure>
+<p>Кликните текущее подразделение структуры организации, выберите новое подразделение из списка и нажмите кнопку <strong>Assign to selected unit</strong> <img alt="" src="../img/image49.png" />.</p>
+<figure>
+<p><img alt="" src="../img/image50.png" /></p>
+</figure>
+<p>и подтвердите обновление структуры организации в появившемся на экране окне. В разделе <strong>Org structure</strong> теперь отображаются обновленные данные.</p>
+<figure>
+<p><img alt="" src="../img/image51.png" /></p>
+</figure>
+<p>Вкладка <strong>Team</strong> позволяет задать информацию о размере и уровне зрелости команды в полях <strong>Team size</strong> и <strong>Team Maturity</strong>. Эта информация не является обязательной, а эти поля можно оставить пустыми.</p>
+<h2 id="_6">Профиль рисков приложения<a class="headerlink" href="#_6" title="Permanent link">⚓︎</a></h2>
+<p>Выберите вкладку <strong>Risk profile</strong> на странице настроек приложения <strong>Settings</strong>.</p>
+<figure>
+<p><img alt="" src="../img/image52.png" /></p>
+</figure>
+<p>Эта вкладка рассчитывает и показывает сводку рисков приложений в верхней части вкладки.</p>
+<p>Нижняя часть вкладки представляет собой вопросник по сбору информации о рисках приложения и позволяет вводить информацию о приложении, используя ряд полей с выпадающими меню. На основе этой информации в верхней части вкладки рассчитываются и отображаются риски информационной безопасности приложения в режиме реального времени.</p>
+<h2 id="_7">Уведомления приложения<a class="headerlink" href="#_7" title="Permanent link">⚓︎</a></h2>
+<p>Пункт меню <strong>Notifications</strong> позволяет настроить отправку уведомлений о различных событиях для данного приложения. Отправка уведомлений осуществляется по электронной почте.</p>
+<p>Важно заметить, что настройка уведомлений возможна как для каждого отдельного приложения, так и в профиле пользователя. Таким образом, если определенный тип уведомлений, например <strong>Defect reopened</strong>, включен в настройках приложения (см. рис. ниже), но отключен в профиле пользователя (см. раздел «<a href="">Пользователи и команды</a>» Руководства прикладного администратора), соответствующие уведомления данному пользователю отправляться не будут.</p>
+<figure>
+<p><img alt="" src="../img/image53.png" /></p>
+</figure>
+<h2 id="_8">Журнал задач<a class="headerlink" href="#_8" title="Permanent link">⚓︎</a></h2>
+<p>Пункт меню <strong>Task log</strong> позволяет просмотреть журнал задач с записями о различных типах событий для данного приложения.</p>
+<figure>
+<p><img alt="" src="../img/image54.png" /></p>
+</figure>
+<p>Страница содержит три вкладки:</p>
+<ul>
+<li><strong>Imports</strong> — задачи, связанные с импортом Security Issues из других инструментов. Отображаются следующие данные:<ul>
+<li><strong>Id</strong> — идентификационный номер.</li>
+<li><strong>Status</strong> — статус.</li>
+<li><strong>Started</strong> — дата запуска.</li>
+<li><strong>Duration</strong> — продолжительность.</li>
+<li><strong>Warnings</strong> — предупреждения. При наличии предупреждений в данном столбце отображается значок  (см. рис. выше), нажав который можно ознакомиться с перечнем * предупреждений. 
+<img alt="" src="../img/image3.png" /></li>
+<li><strong>Scan id</strong> — идентификационный номер сканирования.</li>
+<li><strong>Pipeline</strong> — ссылка на Security Pipeline, в рамках которого выполнялось сканирование.</li>
+<li><strong>Started by</strong> — имя пользователя, инициировавшего процесс импорта Security Issues. Если данное поле пустое, импорт был запущен автоматический, например после завершения сканирования.</li>
+</ul>
+</li>
+<li><strong>Scans</strong> — задачи, связанные со сканированием Security Pipelines.</li>
+<li><strong>Tracker syncs</strong> — задачи, связанные с синхронизацией с системой отслеживания ошибок.</li>
+</ul>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            К началу
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Нижний колонтитул">
+      
+        
+        <a href="../adding%20a%20new%20application/" class="md-footer__link md-footer__link--prev" aria-label="Назад: Добавление нового приложения" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Назад
+              </span>
+              Добавление нового приложения
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../aag/" class="md-footer__link md-footer__link--next" aria-label="Вперед: Руководство прикладного администратора" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Вперед
+              </span>
+              Руководство прикладного администратора
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    © 2020—2022&nbsp;&nbsp;<a href="https://swordfishsecurity.ru/" target="_blank" rel="noopener">
+      Swordfish Security</a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.expand", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "search.shares", "content.code.annotate", "toc.integrate"], "search": "../../assets/javascripts/workers/search.d5a3c699.min.js", "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.config.lang": "ru", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "\u041f\u043e\u0438\u0441\u043a", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version.title": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.897f3768.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+      
+        <script src="../../javascripts/tablesort.js"></script>
+      
+    
+  </body>
+</html>
